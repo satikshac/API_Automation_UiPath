@@ -1,0 +1,113 @@
+{
+  "name": "API_Automation",
+  "projectId": "ed43fadf-130e-4152-ba22-a5e653d8ad38",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[3.0.1]",
+    "UiPath.Excel.Activities": "[3.4.1]",
+    "UiPath.System.Activities": "[25.12.0-preview]",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.WebAPI.Activities": "[2.4.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.185.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bd4d2904-2c47-4ae7-84ab-5fc2054fa2bc",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "88e125e1-7ce8-40ba-a516-56c1adb63bd6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4dddb132-53c7-4672-b172-71a4ff72b06e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_03_Post_Orchestrator's_API.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1a820eed-92c4-4a78-8d9f-f6730561b162",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_04_Get_Orchestrator'_API.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "28c0f208-ccf3-4e92-a6fe-e36a9e8e9a4c",
+        "testCaseType": "TestCase",
+        "fileName": "TC_01_SimpleGet.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9e2626d9-bc58-4928-9d24-e34e1a17d0d7",
+        "testCaseType": "TestCase",
+        "fileName": "TC_02_DeserializeJson_Notepad.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8826f16a-6ee5-4a3f-99f1-45568a424416",
+        "testCaseType": "TestCase",
+        "fileName": "TC_05_Excel&Report.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "TC_03_Post_Orchestrator's_API.xaml",
+      "uniqueId": "77271368-4b52-4b93-b62e-7d38f4fe9048",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TC_04_Get_Orchestrator'_API.xaml",
+      "uniqueId": "29dc547c-7cad-49e3-87f0-dc02b8f09f60",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
