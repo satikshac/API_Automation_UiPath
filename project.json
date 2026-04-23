@@ -81,12 +81,6 @@
         "testCaseId": "9e2626d9-bc58-4928-9d24-e34e1a17d0d7",
         "testCaseType": "TestCase",
         "fileName": "TC_02_DeserializeJson_Notepad.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "8826f16a-6ee5-4a3f-99f1-45568a424416",
-        "testCaseType": "TestCase",
-        "fileName": "TC_05_Excel&Report.xaml"
       }
     ],
     "saveToCloud": false
